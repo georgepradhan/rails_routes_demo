@@ -5,7 +5,7 @@ RailsRoutesDemo::Application.routes.draw do
 
   get '/foo' => 'cars#foo'
   # match '/foo', to: 'pages#show'
-
+  get '/test' => 'application#test'
 
 
 
