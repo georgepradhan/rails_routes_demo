@@ -3,7 +3,7 @@ RailsRoutesDemo::Application.routes.draw do
 
   resources :cars
 
-  # get '/foo' => 'cars#foo'
+  get '/foo' => 'cars#foo'
   # match '/foo', to: 'pages#show'
 
 
