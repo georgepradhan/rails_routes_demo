@@ -3,6 +3,15 @@ RailsRoutesDemo::Application.routes.draw do
 
   resources :cars
 
+  # get '/foo' => 'cars#foo'
+  # match '/foo', to: 'pages#show'
+
+
+
+
+
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
